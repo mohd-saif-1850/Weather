@@ -1,0 +1,20 @@
+/* index.css */
+@import "tailwindcss";
+
+html {
+  --bg: linear-gradient(135deg, #f9fafb, #e5e7eb); /* light gradient */
+  --card: rgba(255, 255, 255, 0.8);
+  --text: #111827;
+}
+
+html.dark {
+  --bg: linear-gradient(135deg, #0f172a, #1e293b); /* dark gradient */
+  --card: rgba(17, 24, 39, 0.8);
+  --text: #f9fafb;
+}
+
+body {
+  @apply transition-colors duration-500;
+  background: var(--bg);
+  color: var(--text);
+}
