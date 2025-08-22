@@ -2,13 +2,13 @@
 @import "tailwindcss";
 
 html {
-  --bg: linear-gradient(135deg, #f9fafb, #e5e7eb); /* light gradient */
+  --bg: linear-gradient(135deg, #f9fafb, #e5e7eb); 
   --card: rgba(255, 255, 255, 0.8);
   --text: #111827;
 }
 
 html.dark {
-  --bg: linear-gradient(135deg, #0f172a, #1e293b); /* dark gradient */
+  --bg: linear-gradient(135deg, #0f172a, #194285);
   --card: rgba(17, 24, 39, 0.8);
   --text: #f9fafb;
 }
